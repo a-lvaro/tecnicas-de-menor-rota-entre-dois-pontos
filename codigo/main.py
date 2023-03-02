@@ -17,7 +17,7 @@ def display_grafoPequeno():
     next_window.title("Grafo Pequeno")
     next_window.geometry("400x200+300+300")
     text = '''começaremos com a busca em um grafo menor
-    \nEsse grafo possui 263 vértices'''
+    \nEsse grafo possui 263 aresta e 160 vértices'''
     next_label = tk.Label(next_window, text=text)
     next_label.pack()
 
@@ -38,7 +38,7 @@ def display_grafoMedio():
     next_window.title("Grafo médio")
     next_window.geometry("400x200+300+300")
     text = '''Agora, iremos fazer a busca em um grafo médio
-    \nEsse grafo possui 1849 vértices'''
+    \nEsse grafo possui 1849 aresta e 913 vértices'''
     next_label = tk.Label(next_window, text=text)
     next_label.pack()
 
@@ -59,7 +59,7 @@ def display_grafoGrande():
     next_window.title("Grafo Grande")
     next_window.geometry("400x200+300+300")
     text = '''Agora, iremos fazer a busca em um grafo grande
-    \nEsse grafo possui 9563 vértices'''
+    \nEsse grafo possui 9563 aresta 3994 vértices'''
     next_label = tk.Label(next_window, text=text)
     next_label.pack()
 
